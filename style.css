@@ -1,0 +1,898 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.secondary{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand{
+  color: rgb(50, 213, 50);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.s-container{
+    width: 86%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(50, 213, 50);
+    color: #fff;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 50px;
+    padding: 0.8rem 1rem;
+    font-size: 0.8rem;
+}
+
+.s-item{
+    display: flex;
+    gap: 18;
+}
+
+.primary .navbar-nav .nav-item{
+    margin-left: 1.2rem;
+}
+
+#pn-icons .fa-solid{
+    font-size: 1.5rem;
+    color: rgb(50, 213, 50);
+}
+
+.fa-magnifying-glass:before, .fa-search:before{
+    border: 1px solid rgb(50, 213, 50);
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.main{
+    background: url(./images/texture.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.search{
+    height: 45px;
+    width: 300px;
+    outline: none;
+    border: 1px solid rgb(50, 213, 50);
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+    margin-top: 20px;
+}
+
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(50, 213, 50);
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+    margin-top: 20px;
+}
+
+.btn1:hover{
+    background-color: rgb(13, 172, 13);
+}
+
+.main p{
+    color: rgb(50, 213, 50);
+    font-size: 1.2rem; 
+}
+
+.main h3{
+    color: rgb(50, 213, 50);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+   flex-direction: row;
+}
+
+
+#row-two {
+    justify-content: flex-end;
+    margin-top: -400px;
+    border-radius: 40%; 
+}
+
+
+
+
+
+
+
+.car-icon{
+    text-align: center;
+    font-size: 40px;
+}
+
+.cardStyle {
+    margin-top: 3rem;
+}
+#Icons{
+    margin-top: 50px;
+}
+
+.card-text-price{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.btn2{
+    height: 45px;
+    outline: none;
+    border: 1px solid rgb(50, 213, 50);
+    background-color: transparent;
+    border-radius: 15px;
+    color: rgb(50, 213, 50);
+    transition: all 0.4s;
+}
+
+#nav-button-main{
+    margin-top: 20px;
+}
+
+#nav-button{
+  font-size: 22px;
+  background-color: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid rgb(245, 244, 244);
+  background-color: rgb(231, 230, 230);
+  border-radius: 15px;
+  margin-right: 10px;
+  width: 125px;
+}
+
+#nav-button-s{
+    font-size: 22px;
+    background-color: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid rgb(245, 244, 244);
+    background-color: rgb(231, 230, 230);
+    border-radius: 15px;
+    margin-right: 3px;
+  }
+
+  #nav-button:hover{
+      background-color: orange;
+  }
+
+  #nav-button-s:hover{
+    background-color: orange;
+  }
+
+
+
+
+#nav-button-text{
+    margin-right: 150px;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+#boxparent{
+    background-color: orange;
+    width: 100%;
+    height: 150px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#box-child{
+    background-color: rgb(50, 213, 50);
+    width: 65%;
+    height: 110px;
+    border-radius: 15px;
+    margin-top: -60px;
+    margin-left: 55px;
+}
+
+.box-text{
+    color: #fff;
+    font-size: 18.5px;
+    text-align: center;
+    line-height: 0.7;
+}
+
+#text-one{
+   padding-top: 30px;
+}
+
+#text-two{
+    font-size: 25px;
+    color: rgb(77, 70, 70);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======BANNER TWO SECTION========= */
+.banner2 {
+    background-color: rgb(250, 186, 66);
+    margin-top: 50px;
+}
+
+.banner2-heading{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#banner2-t1{
+    font-size: 40px;
+}
+
+#banner2-t2{
+    margin-top: 10px;
+}
+
+.btn3{
+    height: 45px;
+    width: 120px;
+    outline: none;
+    border: 1px solid rgb(231, 248, 231);
+    background-color: transparent;
+    border-radius: 12px;
+    color: #000;
+    transition: all 0.4s;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+#row-three {
+    justify-content: flex-end;
+    margin-top: -550px;
+    border-radius: 40%; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======NEW BEST SELLER SECTION========= */
+.best-seller h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.best-seller i{
+    color: #FFD700;
+}
+
+.best-seller .card{
+    border-radius: 0;
+    border: none;
+}
+
+#best-seller-text{
+    margin: 30px;
+    margin-right: 8px;
+}
+
+#bestseller-img{
+    border-radius: 50%;
+    margin: 8px;
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+/* =======FOOTER SECTION========= */
+.footer-text, #footer-icon-c{
+   color: rgb(50, 213, 50);
+}
+
+.footer-text{
+    margin-left: 15px;
+ }
+
+
+.btn4{
+    height: 45px;
+    width: 600px;
+    outline: none;
+    border: none;
+    background-color: rgb(50, 213, 50);
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+    transition: all 0.4s;
+    margin-top: 20px;
+}
+
+.btn4:hover{
+    background-color: rgb(13, 172, 13);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############ SUB HEADER SECTION ########## */
+.sub-header{
+    background: url(./images/shopp.jpg)no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+
+.sub-header h3{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.sub-header p{
+    color: rgb(50, 213, 50);
+    font-size: 1.2rem; 
+}
+
+
+
+
+.sub-header-contactus {
+    background: url(./images/contact-Banner.jpg)no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+
+.sub-header-contactus h3{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.sub-header-contactus p{
+    color: rgb(50, 213, 50);
+    font-size: 1.2rem; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ########## BOX MODEL STYLING  ########### */
+.boxModel{
+    background-color: #fff;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    margin-bottom: 20px; 
+}
+
+#boxModelOne{
+    margin-top: 20px;
+}
+
+
+.boxModel a{
+    text-decoration: none;
+}
+
+.boxModel h5{
+    padding-bottom: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.boxModel #price{
+    border-bottom: none;
+}
+
+.boxModel p{
+    color: #333e48;
+}
+
+.boxModel h6{
+    padding-bottom: 15px;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.boxModel form{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============= CATEGORIES BLOG SIDEBAR PAGE ================ */
+.blog-sidebar-text i{
+    color: rgb(50, 213, 50);
+}
+
+#extra {
+    padding-left: 130px;
+    color: #000;
+}
+#extra1{
+    padding-left: 120px;
+    color: #000;
+}
+#extra2{
+    padding-left: 105px;
+    color: #000;
+}
+#extra3{
+    padding-left: 125px;
+    color: #000;
+}
+#extra4{
+    padding-left: 110px;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+/* ============= PRICE RANGE COLOR ================ */
+.form-range::-webkit-slider-thumb {
+    background: rgb(50, 213, 50);;
+  }
+  
+  .form-range::-moz-range-thumb {
+    background: rgb(50, 213, 50);;
+  }
+  
+  .form-range::-ms-thumb {
+    background: rgb(50, 213, 50);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############### CART STYLING  ########## */
+.boxModel #bottomBorder{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+ 
+
+.boxModel .cartBox{
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr 1.6fr 0.4fr;
+    grid-template-rows: 1fr 0.8fr 1.2fr;
+    gap:0px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "productImage product_title product_title remove_btn"
+    "productImage product_title product_title remove_btn"
+    "productImage product_details product_details remove_btn"
+    ;
+}
+
+
+.product_title{
+   grid-area: product_title;
+   align-self: start;
+}
+
+.productImage{
+    grid-area: productImage;    
+}
+
+.remove_btn{
+    grid-area: remove_btn;   
+}
+
+.product_details{
+    grid-area: product_details;
+}
+
+.cartBox a{
+    text-decoration: none;
+    color: gray;
+}
+
+.cartBox i{
+    color: red;
+}
+
+.sub_total{
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.sub_total span{
+    float: right;
+    color: red;
+    font-weight: 600;
+}
+
+.checkOutBtn:hover{
+    background-color: red;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+
+.product_name i{
+    color: #FFD700;
+}
+
+.btn5{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border: 1px solid rgb(50, 213, 50);
+    background-color: transparent;
+    border-radius: 15px;
+    color: rgb(50, 213, 50);
+    transition: all 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############### SLIDER SECTION STYLING  ########## */
+
+.sort_by_section {
+    display: grid;
+    grid-template-columns: 0.3fr 0.2fr 2.5fr 2fr 0.1fr;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    grid-template-rows: 1fr;
+    gap:0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "view1 view2 blank show";
+}
+
+.view1{
+    grid-area: view1;
+}
+.view2{
+    grid-area: view2;
+}
+.blank{
+    grid-area: blank;
+}
+.show{
+    grid-area: show;
+    justify-content: end;
+}
+
+.view1 i{
+    color: #fed700;
+    font-size: 28px;
+}
+
+.view2 i{
+    font-size: 28px;
+}
+
+.show label{
+    color: gray;
+    margin-left: 10px; 
+}
+
+.show select{
+    color: gray;
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+/* ############### PIGINATION STYLING  ########## */
+
+.pagination > li > a
+{
+    background-color: white;
+    color: #000;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #5a5a5a;
+    background-color: rgb(50, 213, 50);
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: rgb(50, 213, 50) !Important;
+    border: solid 1px #5A4181 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: rgb(50, 213, 50) !Important;
+    border: solid 1px #5A4181;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############### PRODUCT DETAILS SECTION STYLING  ########## */
+.west-seller i{
+    color: rgb(50, 213, 50);
+}
+
+.west-seller .card{
+    border-radius: 0;
+    border: none;
+}
+
+#west-seller-text{
+    margin: 30px;
+    margin-right: 8px;
+}
+
+#westseller-img{
+    margin: 8px;
+    margin-top: 20px;
+}
+
+
+#details{
+    padding-left: 100px;
+}
+
+#details i{
+    color: #FFD700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ############### DESCRIPTION BOX AND FORM STYLING  ########## */
+.descriptionbox{
+    margin-top: 20px;
+  }
+  
+  .descriptionbox-navigator{
+      display: flex;
+  }
+  
+  .descriptionbox-nav-box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 600;
+      width: 171px;
+      height: 70px;
+      border: 1px solid #d0d0d0;
+  }
+  
+  .descriptionbox-nav-box.tade{
+      background: #FBFBFB;
+      color: #555;
+  }
+  
+  .descriptionbox-description{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border: 1px solid #DOD0D0;
+      padding-bottom: 40px;
+  }
+  
+  
+  
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+      width: 100%; /* Full width */
+      padding: 12px; /* Some padding */ 
+      border: 1px solid #ccc; /* Gray border */
+      border-radius: 4px; /* Rounded borders */
+      box-sizing: border-box; /* Make sure that padding and width stays in place */
+      margin-top: 6px; /* Add a top margin */
+      margin-bottom: 16px; /* Bottom margin */
+      resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+    
+    /* Style the submit button with a specific background color etc */
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+/* ############### CONTACT SECTION STYLING  ########## */
+#contact-section{
+    background-color: rgb(221, 215, 215);
+    padding: 40px;
+    text-align: center;
+    height: 1000px;
+}
+
+.contact-heading{
+    margin-bottom: 200px;
+}
+
+.contact-heading h2{
+    color: rgb(50, 213, 50);
+    font-size: 40px;
+}
+
+#heading-element{
+    color: rgb(50, 213, 50);
+}
+
+
+.col-md-5{
+    background-color: #fcfdfd;
+    padding: 20px;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
